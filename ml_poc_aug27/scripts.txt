@@ -1,0 +1,68 @@
+>> python -m venv cuda
+>> cuda\Scripts\activate
+
+============install ============
+>> pip3 install matplotlib numpy pylzma ipykernel jupyter
+
+>> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+>> python --version
+
+=========to see that we are working inside the virtual env=======
+>> python -m ipykernel install --user --name=cuda --display-name "capstone_code"
+
+
+========== to activate==========
+>> cd C:\Users\Joseph Rivera\Desktop\UAP\Capstone\legal_llm\llm_code
+>> cuda\Scripts\activate
+
+
+
+
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+.\ml_poc\Scripts\Activate.ps1
+
+.\ml_poc\Scripts\Activate.ps1
+
+streamlit run app.py
+
+
+================================
+
+https://www.youtube.com/watch?v=9n4Ch2Dgex0
+
+	(4:20 how to copy an emoji)
+
+https://fonts.google.com/icons
+
+https://colab.research.google.com/drive/1a4aq5F--x_tEDyddecXtJJRhQwjjt_DE?usp=sharing
+
+================================
+
+
+You can categorize sentiments into five levels based on a score from 0 to 10 as follows:
+
+Very Negative (0-2): Sentiments that are extremely dissatisfied, angry, or critical.
+Negative (3-4): Sentiments that are generally dissatisfied or express disappointment.
+Neutral (5-6): Sentiments that are neither positive nor negative, or are mixed with no clear lean towards positivity or negativity.
+Positive (7-8): Sentiments that express satisfaction, approval, or mild enthusiasm.
+Very Positive (9-10): Sentiments that are extremely satisfied, enthusiastic, or appreciative.
+This scale allows for a more granular analysis of sentiment, reflecting varying degrees of positivity and negativity.
+
+
+
+
+Yes, categorizing reviews based on the Net Promoter Score (NPS) is a common and effective approach. The NPS system itself uses a similar categorization:
+
+Detractors (0-6): Customers who are unhappy and might discourage others from using the product or service.
+Passives (7-8): Customers who are satisfied but unenthusiastic and could switch to a competitor.
+Promoters (9-10): Customers who are highly satisfied and likely to recommend the product or service to others.
+Using the five-level sentiment scale you mentioned (Very Negative to Very Positive) in conjunction with the NPS categorization is logical and can help in more detailed sentiment analysis. Here's how it aligns:
+
+Very Negative (0-2): Detractors
+Negative (3-4): Detractors
+Neutral (5-6): Detractors
+Positive (7-8): Passives
+Very Positive (9-10): Promoters
